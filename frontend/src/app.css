@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-danger {
+    @apply py-1 px-4 bg-red-900 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+
+  .btn-primary {
+    @apply py-1 px-4 bg-blue-900 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+
+  .server-name {
+    @apply py-1 px-1 rounded-lg bg-orange-700 text-white
+  }
+
+  .nickname {
+    @apply py-1 px-1 rounded-lg bg-amber-700 text-white
+  }
+}
